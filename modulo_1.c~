@@ -1,0 +1,18 @@
+#include "struct.h"
+
+void crear();
+void recorrer();
+void liberar();
+
+  
+int main(int argn, char argv[])
+{
+  int opc;
+
+  printf("\t\tPara leer los datos en:\n 1)Sentido horario \n2)Sentido opuesto\n");
+  scanf("%d", &opc);
+  
+  if(opc = 1)
+    {
+      
+  
